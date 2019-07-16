@@ -13,8 +13,8 @@ Here, pip is a package-management system used to install and manage software pac
 
 Update : `sudo apt-get update`<br>
 beautifull Soup : `pip3 install beautifulsoup4`<br><br>
-Requests is an Apache2 Licensed HTTP library, written in Python.
-Requests will allow you to send HTTP/1.1 requests using Python. You can install requests library using following code in your terminal in Linux.
+
+### Requests will allow you to send HTTP/1.1 requests using Python. You can install requests library using following code in your terminal in Linux.
 
 pip3 install requests
 
