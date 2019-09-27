@@ -1,0 +1,79 @@
+{
+    "name": "Aparajito",
+    "runtime": 110,
+    "genre": [
+        "Drama"
+    ],
+    "bio": "Following his father's death, a boy leaves home to study in Calcutta, while his mother must face a life alone.",
+    "Country": "India",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjMyZDUxOWItZmFhNS00MWRjLWFmM2ItNTljMGIwZWU2MjIwXkEyXkFqcGdeQXVyMTA2ODMzMDU@._V1_UY268_CR3,0,182,268_AL__QL50.jpg",
+    "director": [
+        "Satyajit Ray"
+    ],
+    "language": [
+        "Bengali",
+        "English"
+    ],
+    "cast": [
+        {
+            "imdb_id": "nm0011967",
+            "name": "Kamala Adhikari"
+        },
+        {
+            "imdb_id": "nm0051837",
+            "name": "Lalchand Banerjee"
+        },
+        {
+            "imdb_id": "nm0052332",
+            "name": "Kali Bannerjee"
+        },
+        {
+            "imdb_id": "nm0052333",
+            "name": "Kanu Bannerjee"
+        },
+        {
+            "imdb_id": "nm0052334",
+            "name": "Karuna Bannerjee"
+        },
+        {
+            "imdb_id": "nm1434574",
+            "name": "Panchanan Bhattacharya"
+        },
+        {
+            "imdb_id": "nm5581917",
+            "name": "Debabrata Chakraborty"
+        },
+        {
+            "imdb_id": "nm0149839",
+            "name": "Harendrakumar Chakravarti"
+        },
+        {
+            "imdb_id": "nm0154130",
+            "name": "Hemanta Chatterjee"
+        },
+        {
+            "imdb_id": "nm0222461",
+            "name": "Meenakshi Devi"
+        },
+        {
+            "imdb_id": "nm0304354",
+            "name": "Subodh Ganguli"
+        },
+        {
+            "imdb_id": "nm0315871",
+            "name": "Smaran Ghosal"
+        },
+        {
+            "imdb_id": "nm0315882",
+            "name": "Charuprakash Ghosh"
+        },
+        {
+            "imdb_id": "nm0348496",
+            "name": "Santi Gupta"
+        },
+        {
+            "imdb_id": "nm0593940",
+            "name": "Ajay Mitra"
+        }
+    ]
+}

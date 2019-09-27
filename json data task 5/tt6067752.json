@@ -1,0 +1,81 @@
+{
+    "name": "Lucifer",
+    "runtime": 175,
+    "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+    ],
+    "bio": "A political Godfather, who ruled the God's Own Country, dies and a lot of thieves dressed up as politicians took over the rule. When question arises on the replacement of the 'God', just one name emerges; 'Stephen Nedumbally'.",
+    "Country": "India",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZjE2MzFiZGUtMGM2Ny00ZWQyLTg5YzYtZGE5YWM0YzYwMDY4XkEyXkFqcGdeQXVyOTY5MTE4MjA@._V1_UY268_CR1,0,182,268_AL__QL50.jpg",
+    "director": [
+        "Prithviraj Sukumaran"
+    ],
+    "language": [
+        "Malayalam",
+        "Tamil"
+    ],
+    "cast": [
+        {
+            "imdb_id": "nm9984766",
+            "name": "Rajesh Babu"
+        },
+        {
+            "imdb_id": "nm7919293",
+            "name": "Waluscha D'Souza"
+        },
+        {
+            "imdb_id": "nm9774028",
+            "name": "Renith Elamadu"
+        },
+        {
+            "imdb_id": "nm1059722",
+            "name": "Frank Free"
+        },
+        {
+            "imdb_id": "nm6630376",
+            "name": "Jaise Jose"
+        },
+        {
+            "imdb_id": "nm1229941",
+            "name": "Thara Kalyan"
+        },
+        {
+            "imdb_id": "nm0007106",
+            "name": "Shakti Kapoor"
+        },
+        {
+            "imdb_id": "nm6416918",
+            "name": "Anna Sophia Moad"
+        },
+        {
+            "imdb_id": "nm0482320",
+            "name": "Mohanlal"
+        },
+        {
+            "imdb_id": "nm1059103",
+            "name": "Vivek Oberoi"
+        },
+        {
+            "imdb_id": "nm0913097",
+            "name": "Manju Warrier"
+        },
+        {
+            "imdb_id": "nm5732707",
+            "name": "Tovino Thomas"
+        },
+        {
+            "imdb_id": "nm1335387",
+            "name": "Prithviraj Sukumaran"
+        },
+        {
+            "imdb_id": "nm1011348",
+            "name": "Indrajith Sukumaran"
+        },
+        {
+            "imdb_id": "nm7479044",
+            "name": "Saniya Iyappan"
+        }
+    ]
+}

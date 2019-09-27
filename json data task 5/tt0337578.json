@@ -1,0 +1,80 @@
+{
+    "name": "Baghban",
+    "runtime": 181,
+    "genre": [
+        "Drama",
+        "Romance"
+    ],
+    "bio": "An elderly couple wish their children to care for them in their old age. But their children see and treat them as a burden, and they must struggle to regain their worth and dignity to themselves and others.",
+    "Country": "India",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjY0NGNkY2EtOWQ0Ny00YTllLWE5NjItMDM2MGIyZWRhMzM4XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY268_CR4,0,182,268_AL__QL50.jpg",
+    "director": [
+        "Ravi Chopra"
+    ],
+    "language": [
+        "Hindi",
+        "Awadhi"
+    ],
+    "cast": [
+        {
+            "imdb_id": "nm0000821",
+            "name": "Amitabh Bachchan"
+        },
+        {
+            "imdb_id": "nm0004564",
+            "name": "Hema Malini"
+        },
+        {
+            "imdb_id": "nm0006795",
+            "name": "Salman Khan"
+        },
+        {
+            "imdb_id": "nm0154274",
+            "name": "Mahima Chaudhry"
+        },
+        {
+            "imdb_id": "nm0990090",
+            "name": "Aman Verma"
+        },
+        {
+            "imdb_id": "nm1267095",
+            "name": "Samir Soni"
+        },
+        {
+            "imdb_id": "nm1265436",
+            "name": "Saahil Chadha"
+        },
+        {
+            "imdb_id": "nm1177893",
+            "name": "Nasirr Khan"
+        },
+        {
+            "imdb_id": "nm0710046",
+            "name": "Suman Ranganath"
+        },
+        {
+            "imdb_id": "nm0244890",
+            "name": "Divya Dutta"
+        },
+        {
+            "imdb_id": "nm1247644",
+            "name": "Arzoo Govitrikar"
+        },
+        {
+            "imdb_id": "nm1267008",
+            "name": "Rimi Sen"
+        },
+        {
+            "imdb_id": "nm0665556",
+            "name": "Yash Pathak"
+        },
+        {
+            "imdb_id": "nm0712546",
+            "name": "Paresh Rawal"
+        },
+        {
+            "imdb_id": "nm0239267",
+            "name": "Lillete Dubey"
+        }
+    ]
+}

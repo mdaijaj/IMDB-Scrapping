@@ -2,13 +2,13 @@ from bs4 import BeautifulSoup
 import requests,pprint,json,os.path,random,time
 
 #-----------------------------------task 1----------------------------------------------
-
+# scrap 250 movie details (name,rating,year,position,url,)
 def scrap_top_list():
 	if os.path.exists("top_movies.json"):
 		with open("top_movies.json","r") as file:
 			read=file.read()
 			data=json.loads(read)
-		return (data)
+		# return (data)
 	time.sleep(random.randint(15,30))		#for random time update
 	url="https://www.imdb.com/india/top-rated-indian-movies/"
 	link=requests.get(url)
@@ -44,39 +44,40 @@ def scrap_top_list():
 
  #---------------------------------------# task 2 -----------------------------------------------
 
+#scrap all movies details base on year
 movies = scrap_top_list()				#all movie store in movies
-# def group_by_year(movie_list):			#parameter pass movie_list or anything of parameter
-# 	years={}
-# 	for i in movie_list:
-# 		b=i["year"]
-# 		years[b]=[]
-# 	for key in years:
-# 		for movie in movie_list:
-# 			year=movie["year"]
-# 			if key==year:
-# 				years[key].append(movie)	
-# 	return(years)
+def group_by_year(movie_list):			#parameter pass movie_list or anything of parameter
+	years={}
+	for i in movie_list:
+		b=i["year"]
+		years[b]=[]
+	for key in years:
+		for movie in movie_list:
+			year=movie["year"]
+			if key==year:
+				years[key].append(movie)	
+	return(years)
 # pprint.pprint(group_by_year(movies))	#function call with arguments which store all movie list in movies
 
 
 #----------------------------------------task 3----------------------------------------------
-
-# def group_by_decade(movie_list):
-# 	deacade={}
-# 	for i in movie_list:
-# 		b=(i["year"]//10)*10
-# 		deacade[b]=[]
-
-# 	for j in deacade:
-# 		for m in movie_list:
-# 			year=m["year"]
-# 			deacade[j].append(m)
-# 	return(deacade)
+# Scrap all movies details base year decade
+def group_by_decade(movie_list):
+	deacade={}
+	for i in movie_list:
+		b=(i["year"]//10)*10
+		deacade[b]=[]
+	for j in deacade:
+		for m in movie_list:
+			year=m["year"]
+			deacade[j].append(m)
+	return(deacade)
 # pprint.pprint(group_by_decade(movies))
 
 
 #----------------------------------------task 12------------------------------------------
 
+# All actors personal id scrap 
 url="https://www.imdb.com/title/tt0066763/fullcredits?ref_=tt_cl_sm#cast"
 def scrap_movie_cast(url):
 	dic_list=[]
@@ -97,6 +98,7 @@ def scrap_movie_cast(url):
 
 # ----------------------------------------task 4 & 13  ------------------------------------------
 
+# scrap 1 movie details (bio,time,actors and director)_
 def scrap_movie_details(movie_url):
 	id1=movie_url[27:-1]
 	file_name=id1+".json"
@@ -169,12 +171,13 @@ def scrap_movie_details(movie_url):
 		json.dump(all_details,file1,indent=4)
 	return(all_details)
 url="https://www.imdb.com/title/tt0066763/"
-# pprint.pprint(scrap_movie_details(url))
+pprint.pprint(scrap_movie_details(url))
 
 
 
 # ----------------------------------------task 5 ------------------------------------------
 
+# scrap user depend input movie details (bio,time,actors and director)_
 def get_movie_list_details(movies_list): 
 	if os.path.exists("movies_details.json"):
 		with open("movies_details.json","r") as file:
@@ -199,6 +202,7 @@ movies_name=get_movie_list_details(movies)	  #fuction call and return value
 
 # ----------------------------------------task 6 ------------------------------------------
 
+# scrap all actors work which language
 def analysis_movies_language(movies_list):
 	language_dic={}
 	for i in movies_list:
@@ -215,6 +219,7 @@ def analysis_movies_language(movies_list):
 
 # ----------------------------------------task 7-----------------------------------------
 
+# how many times Director work on all movies;  
 def analysis_movies_directors(movie_list):
 	director_dic={}
 	for j in movie_list:
@@ -231,6 +236,7 @@ def analysis_movies_directors(movie_list):
 
 #----------------------------------------task 10------------------------------------------
 
+# All director how many language work on movies
 def analysis_language_and_directors(movies_list):
 	director_=[]
 	language_=[]
@@ -265,6 +271,7 @@ def analysis_language_and_directors(movies_list):
 
 #----------------------------------------task 11------------------------------------------
 
+# scrap which type of movie
 def analysis_movies_genre(movies_list):
 	dic3={}
 	for i in movies_list:
@@ -280,6 +287,7 @@ def analysis_movies_genre(movies_list):
 
 #----------------------------------------task 14------------------------------------------
 
+# how many same actor worked on same movies :- 
 def analyse_co_actors(movies_list):
 	dic={}
 	for i in movies_list:
@@ -303,6 +311,7 @@ def analyse_co_actors(movies_list):
 
 #----------------------------------------task 15------------------------------------------
 
+# how many movies work actors 
 def analyse_actors(movies_list):
 	dic2={}
 	for i in movies_list:
@@ -317,4 +326,4 @@ def analyse_actors(movies_list):
 						dic["no_of_movies"]+=1
 			dic2[k]=dic
 	return(dic2)				
-# pprint.pprint(analyse_actors(movies_name))
+# ppri	nt.pprint(analyse_actors(movies_name))

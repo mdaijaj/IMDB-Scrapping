@@ -1,0 +1,79 @@
+{
+    "name": "Chhichhore",
+    "runtime": 143,
+    "genre": [
+        "Comedy",
+        "Drama"
+    ],
+    "bio": "Following a group of friends from university as they progress into middle-age life and go their own separate ways.",
+    "Country": "India",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYjg2ZDI2YTYtN2EwYi00YWI5LTgyMWQtMWFkYmE3NmJkOGVhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY268_CR2,0,182,268_AL__QL50.jpg",
+    "director": [
+        "Nitesh Tiwari"
+    ],
+    "language": [
+        "Hindi"
+    ],
+    "cast": [
+        {
+            "imdb_id": "nm3818286",
+            "name": "Sushant Singh Rajput"
+        },
+        {
+            "imdb_id": "nm3601766",
+            "name": "Shraddha Kapoor"
+        },
+        {
+            "imdb_id": "nm5607349",
+            "name": "Varun Sharma"
+        },
+        {
+            "imdb_id": "nm3070408",
+            "name": "Prateik"
+        },
+        {
+            "imdb_id": "nm3795810",
+            "name": "Tahir Raj Bhasin"
+        },
+        {
+            "imdb_id": "nm5189611",
+            "name": "Naveen Polishetty"
+        },
+        {
+            "imdb_id": "nm7517010",
+            "name": "Tushar Pandey"
+        },
+        {
+            "imdb_id": "nm5926431",
+            "name": "Saharsh Kumar Shukla"
+        },
+        {
+            "imdb_id": "nm1094448",
+            "name": "Rohit Chauhan"
+        },
+        {
+            "imdb_id": "nm9508122",
+            "name": "Nalneesh Neel"
+        },
+        {
+            "imdb_id": "nm1077252",
+            "name": "Abhinav Bhattacharjee"
+        },
+        {
+            "imdb_id": "nm1100346",
+            "name": "Neil Dhokte"
+        },
+        {
+            "imdb_id": "nm7981815",
+            "name": "Vishal Gupta"
+        },
+        {
+            "imdb_id": "nm1085260",
+            "name": "Amrit Kashyap"
+        },
+        {
+            "imdb_id": "nm1097465",
+            "name": "Rudrashish Majumder"
+        }
+    ]
+}
